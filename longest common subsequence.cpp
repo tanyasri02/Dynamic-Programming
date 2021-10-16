@@ -1,3 +1,7 @@
+// key word for dp: longest(optimal) and subsequnce hai
+// if equal we will ake that ele ad move behind 
+// if not we will not take that element and check for n- and m-1 element
+
 #include <bits/stdc++.h>
 using namespace std;
 int solve(string A, string B) {
